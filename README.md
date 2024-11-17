@@ -1,4 +1,3 @@
-# [Al Ardawi Furniture Website](http://alardawifurniture.liveblog365.com/)
 King AbdulAziz Universality - Internet Application Programming (CPCS-403)
 
 Welcome to the repository for the Al Ardawi Furniture Website. This web application is designed to showcase a variety of furniture products, provide information about our store, and facilitate customer feedback and interaction. The website is developed as part of the CPCS403 final project requirements.
