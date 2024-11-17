@@ -1,0 +1,91 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  FONT-FAMILY: 'ROBOTO', SANS-SERIF;
+  scroll-behavior: smooth;
+  background-color: #000000;
+}
+
+/* Profile Section */
+.profile {
+    background: #000000;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ff8177 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.profile_container {
+    width: 80%;
+    max-width: 600px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.profile_img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile_img img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #333;
+}
+
+.profile_info {
+    font-size: 16px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.profile_info p {
+    margin: 10px 0;
+}
+
+.profile_info strong {
+    color: #000;
+}
+
+.profile_edit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile a {
+    background: #f33232;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .profile a:hover{
+    transition: all 0.4s ease-in-out;
+    background: #fff;
+    color: #000000;
+  }
+
+  .error_message {
+    color: red;
+    margin-top: 10px;
+    display: block;
+}

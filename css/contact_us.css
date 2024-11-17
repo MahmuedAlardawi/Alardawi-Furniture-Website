@@ -1,0 +1,97 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  FONT-FAMILY: 'ROBOTO', SANS-SERIF;
+  scroll-behavior: smooth;
+  background-color: #000000;
+}
+
+/* Contact Us Section */
+.contact {
+  background: #000000;
+  padding: 20px;
+}
+
+.contact_container {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: #ffffff;
+  height: auto;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact_container h1 {
+  font-size: 32px;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ff8177 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+}
+
+.contact_details p {
+  margin: 15px 0;
+}
+
+.contact_details strong {
+color: #ff3300;
+}
+
+.contact_details p a{
+  color: #ff8177;
+}
+
+.contact_form {
+  margin-top: 40px;
+}
+
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_form label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.contact_form input,
+.contact_form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.contact_form input[type="submit"] {
+  background-color: #f33232;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.contact_form input[type="submit"]:hover {
+  transform: scale(1.02);
+  transition: all 0.4s ease-in-out;
+  background: #fff;
+  color: #000000;
+}
+
+.error_message {
+  color: rgb(255, 140, 140);
+  display: block;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,31 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    FONT-FAMILY: 'ROBOTO', SANS-SERIF;
+    scroll-behavior: smooth;
+    background-color: #000000;
+  }
+
+.video {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.video h1 {
+    margin-bottom: 20px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ff8177 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video iframe {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}

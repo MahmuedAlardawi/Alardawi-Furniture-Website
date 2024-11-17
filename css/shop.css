@@ -1,0 +1,93 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  FONT-FAMILY: 'ROBOTO', SANS-SERIF;
+  scroll-behavior: smooth;
+  background-color: #000000;
+}
+
+/* Shope Section */
+.shop {
+  background: #000000;
+}
+
+.shop_container {
+  height: auto;
+  max-height: max-content;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  background-color: #000000;
+  z-index: 1;
+  overflow: auto;
+}
+
+.shop_header {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.shop h1 {
+  font-size: 48px;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ff8177 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: auto;
+}
+
+.product {
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  box-sizing: border-box ;
+  text-align: center;
+}
+
+.product_img {
+  height: auto;
+  max-width: 100%;
+}
+
+.product_img:hover {
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+}
+
+.product_title {
+  color: #ffffff;
+  font-size: 28px;
+  margin-top: 20px;;
+  margin-bottom: 20px;
+}
+
+.product_btn {
+  background: #f33232;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.product a:hover{
+  transition: all 0.4s ease-in-out;
+  background: #fff;
+  color: #000000;
+}

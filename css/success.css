@@ -1,0 +1,30 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+body {
+    box-sizing: border-box;
+    FONT-FAMILY: 'ROBOTO', SANS-SERIF;
+    scroll-behavior: smooth;
+    background-color: #000000;
+    text-align: center;
+}
+
+    
+.success_message {
+  font-size: 24px;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ff8177 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;    margin-top: 40px;
+  text-align: left;
+  padding: 10px;
+}
+
+.redirect_message {
+  font-size: 16px;
+  color: #555;
+  text-align: left;
+  padding: 12px;
+}

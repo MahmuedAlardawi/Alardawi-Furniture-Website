@@ -1,0 +1,146 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  FONT-FAMILY: 'ROBOTO', SANS-SERIF;
+  scroll-behavior: smooth;
+  background-color: #000000;
+}
+
+/* Home Section */
+.home {
+  background-color: #000000;
+}
+
+.home_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 70vh;
+  max-height: max-content;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  background-color: #000000;
+  padding: 0 40px;
+  z-index: 1;
+}
+
+.home h1 {
+  font-size: 64px;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ff8177 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home h2 {
+  font-size: 64px;
+  background-color: #e80505;
+  background-image: linear-gradient(to top, #3d0303 0%, #e80505 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home p {
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.home a {
+  background: #f33232;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.home a:hover {
+  transition: all 0.4s ease-in-out;
+  background: #fff;
+  color: #000000;
+}
+
+.home img {
+  max-width: 600px;
+  max-height: 400px;
+}
+   
+/* Services Section */
+.services {
+  background-color: #000000;
+  padding: 50px 50px 50px 50px;
+}
+
+.services_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: auto;
+  max-height: max-content;;
+  max-width: 1300px;
+  margin: auto;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.services h1 {
+  font-size: 48px;
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ff8177 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+}
+
+.services h2 {
+  font-size: 32px;
+  background-image: linear-gradient(to top, #ff8177 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 50px;
+  margin-right: auto;
+}
+
+.services h2:hover {
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+}
+
+.services p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.services img:hover {
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+}
+
+.services_card1, .services_card2 {
+  display: flex;
+  gap: 20px;
+}
+
+.services_card_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.services_card1 img, .services_card2 img {
+  height: auto;
+  width: auto;
+  max-width: 30%;
+}

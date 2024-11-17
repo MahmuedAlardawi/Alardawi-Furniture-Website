@@ -1,0 +1,49 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    FONT-FAMILY: 'ROBOTO', SANS-SERIF;
+    scroll-behavior: smooth;
+  }
+  
+/* Footer Section */
+.footer {
+    background-color: #1d0202;
+    color: #ffffff;
+    padding: 5px 0;
+    font-size: 16px;
+  }
+  
+  .footer_container {
+    display: flex;
+    height: auto;
+    max-width: 1300px;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .footer_content a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .fab {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  
+  .footer_content a:hover {
+    color: #ff8177;
+  }
+  
+  .footer_bottom {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ffffff;
+  }

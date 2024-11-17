@@ -1,0 +1,23 @@
+/*
+  CPC-403_Final Project
+  Mahmued Alardawi - 213529 - CS1 
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+.design {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.design img{
+  width: 600px;
+  height: 600px;
+  margin: center;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
